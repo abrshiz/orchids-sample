@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { MapPin, Clock, Phone, MessageCircle, Instagram, Facebook } from 'lucide-react';
+import { MapPin, Clock, Phone, MessageCircle } from 'lucide-react';
 
 const info = [
   {
@@ -118,14 +118,14 @@ export default function Contact() {
               className="w-11 h-11 rounded-full glass flex items-center justify-center text-gray-400 hover:text-[#c8a96e] hover:border-[#c8a96e]/40 transition-all duration-300"
               style={{ border: '1px solid rgba(255,255,255,0.08)' }}
             >
-              <Instagram size={18} />
+              {/* <Instagram size={18} /> */}
             </a>
             <a
               href="#"
               className="w-11 h-11 rounded-full glass flex items-center justify-center text-gray-400 hover:text-[#c8a96e] hover:border-[#c8a96e]/40 transition-all duration-300"
               style={{ border: '1px solid rgba(255,255,255,0.08)' }}
             >
-              <Facebook size={18} />
+              {/* <Facebook size={18} /> */}
             </a>
           </div>
         </motion.div>
